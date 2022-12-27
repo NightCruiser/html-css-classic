@@ -2,6 +2,7 @@ body {
     margin: 10px;
 }
 .container {
+    margin: 0 auto;
     max-width: 900px;
     background-color: #1ef;
     font-size: 0; /*delete text node*/
