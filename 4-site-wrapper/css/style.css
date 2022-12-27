@@ -1,0 +1,76 @@
+body {
+    margin: 10px;
+}
+header {
+    background-color: blue;
+    min-height: 100px; /*just for etsting purposes*/
+}
+nav {
+    background-color: gold;
+    min-height: 50px; /*just for etsting purposes*/
+
+}
+main {
+    background-color: #1ef;
+}
+footer {
+    background-color: gray;
+    min-height: 35px; /*just for etsting purposes*/
+
+}
+.container {
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 0 30px;
+}
+.box {
+    font-size: 0; /*delete text node*/
+    /*Hard?*//*enlarge .box by menu-items margin to align menu-items with other content*/
+    margin: 0 -5px;
+}
+.menu-item {
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: blueviolet;
+    width: calc(100% / 4 - 10px);
+    min-width: 35px;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid blue;
+}
+
+@media screen and (max-width: 700px) {
+    .menu-item {
+        width: calc(100% / 3 - 10px);
+    }
+    .container {
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .menu-item {
+        width: calc(100% / 2 - 10px);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu-item {
+        width: calc(100% / 1 - 10px);
+    }
+}
+
+
+/*maybe desktop-first*/
+/*not more than 600px*/
+/* @media screen and (max-width: 600px) {
+    
+} */
+
+/*maybe mobile-first*/
+/*more than 800px*/
+/* @media screen and (min-width: 800px) {
+
+} */
