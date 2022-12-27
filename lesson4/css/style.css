@@ -162,8 +162,11 @@ footer {
     .sidebar {
         display: none;
     }
+    .main-menu {
+        max-width: 100%;
+    }
     .main-container main {
-        width: 100%
+        width: 100%;
     }
     .main-menu__item {
         display: block;
