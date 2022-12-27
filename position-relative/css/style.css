@@ -1,0 +1,34 @@
+body {
+    margin-top: 100px;
+    background: #aaa;
+}
+.wrapper {
+    text-align: center;
+    background-color: #777;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+.header, .menu, .footer {
+    position: relative;
+}
+.header {
+    width: 200px;
+    height: 200px;
+    background-color: #00f;
+}
+.menu {
+    width: 100px;
+    height: 100px;
+    background-color: #ff0;  
+}
+.footer {
+    width: 100px;
+    height: 100px;
+    background-color: #fb0;
+}
+.menu:hover, .header:hover, .footer:hover {
+    top: -25px;
+    left: -25px;
+    box-shadow: 25px 25px 25px #000;
+}

@@ -1,0 +1,39 @@
+body {
+    margin-top: 100px;
+    background: #aaa;
+}
+.wrapper {
+    text-align: center;
+    background-color: #777;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.header, .menu, .footer {
+    position: absolute;
+}
+.header {
+    width: 200px;
+    height: 200px;
+    background-color: #00f;
+    left: 30%;
+    top: 30%;
+}
+.menu {
+    width: 100px;
+    height: 100px;
+    background-color: #ff0;
+    right: 0;
+    bottom: 0;  
+}
+.footer {
+    width: 100px;
+    height: 100px;
+    background-color: #fb0;
+    left: 0;
+    bottom: 0;
+}
+.menu:hover, .header:hover, .footer:hover {
+    box-shadow: 25px 25px 25px #000;
+}
