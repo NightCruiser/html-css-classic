@@ -8,6 +8,9 @@ header {
 nav {
     background-color: gold;
 }
+.main-wrapper {
+    background-color: rgb(83, 134, 182);
+}
 .main-menu {
     max-width: 80%;
     margin: 0 auto;;
