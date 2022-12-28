@@ -39,6 +39,7 @@ nav {
     direction: rtl;
 }
 .main-container aside, .main-container main {
+    display: inline-block;
     font-size: 16px;
     border: 1px solid red;
     direction: ltr;
@@ -147,9 +148,6 @@ footer {
 .logo img {
     max-width: 75px
 }
-.main, .sidebar {
-    display: inline-block;
-}
 [class*="-container"] {
     max-width: 1180px;
     padding: 0 30px;
@@ -162,7 +160,7 @@ footer {
     [class*="-container"] {
         padding: 0 15px;
     }
-    .sidebar {
+    .main-container .sidebar {
         display: none;
     }
     .main-menu {
