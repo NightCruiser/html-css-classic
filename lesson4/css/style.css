@@ -57,7 +57,7 @@ nav {
 /*******************************************/
 /*CARDS*/
 .cards {
-    max-width: 100%;
+    /* max-width: 100%; */
     font-size: 0;
 }
 .cards .card {
