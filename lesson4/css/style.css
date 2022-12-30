@@ -166,6 +166,9 @@ footer {
     .main-menu {
         max-width: 100%;
     }
+    .cards {
+        margin: 0 -10px;
+    }
     .main-container main {
         width: 100%;
     }
